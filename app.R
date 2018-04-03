@@ -7,9 +7,6 @@ library(stringi)
 library(textreadr)
 library(RCurl)
 
-
-
-
 ui =
   
 dashboardPage(skin = 'black',
