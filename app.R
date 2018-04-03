@@ -31,7 +31,9 @@ box(title = "Table", solidHeader = TRUE, width = 12,collapsible = TRUE, color="p
 )
 
 
-server = function(input, output, session) { 
+server = 
+  
+function(input, output, session) { 
    
 skills =  read.csv("https://www.dropbox.com/s/cqa0yjbxob8jywt/skills.csv?dl=1", stringsAsFactors = FALSE)
 is.na(skills) = skills==''
